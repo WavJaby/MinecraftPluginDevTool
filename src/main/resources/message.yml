@@ -1,0 +1,49 @@
+help:
+  header: '&7--------------------- [&a PluginDevTool &7] ---------------------'
+  help: '&7- &a/dev help &f- &7Displays this.'
+  list: '&7- &a/dev plugins &f- &7List all plugins.'
+  info: '&7- &a/dev info <plugin> &f- &7Get info on a plugin.'
+  enable: '&7- &a/dev enable <plugin|all> &f- &7Enable a plugin.'
+  disable: '&7- &a/dev disable <plugin|all> &f- &7Disable a plugin.'
+  restart: '&7- &a/dev restart <plugin|all> &f- &7Restart a plugin.'
+  load: '&7- &a/dev load <plugin> &f- &7Load a plugin.'
+  reload: '&7- &a/dev reload <plugin|all> &f- &7Reload a plugin.'
+  unload: '&7- &a/dev unload <plugin> &f- &7Unload a plugin.'
+info:
+  header: 'Plugin Information: {0}'
+  version: '&7- Version: &a{0}'
+  authors: '&7- Author(s): &a{0}'
+  status: '&7- Status: {0}'
+  depends: '&7- Depends: {0}'
+
+
+autoReload:
+  added: '&9{0} has been added to reload list.'
+  already_added: '&c{0} is already added.'
+  not_found: '&cCould not find &r{0}.'
+
+list:
+  list: '&9Plugins ({0}): {1}'
+disable:
+  all: '&9All plugins have been disabled.'
+  disabled: '&9{0} has been disabled.'
+  already_disabled: '&c{0} is already disabled.'
+enable:
+  all: '&aAll plugins have been enabled.'
+  enabled: '&a{0} has been enabled.'
+  already_enabled: '&c{0} is already enabled.'
+load:
+  already_loaded: '&c{0} is already loaded.'
+  loaded: '&a{0} has been loaded and enabled.'
+  not_found: '&cCould not find &r{0}.'
+  des_error: '&cFailed to get &r{0}&c descriptions.'
+  invalid_description: '&cThat plugin has an invalid description.'
+  invalid_plugin: '&cThat file is not a valid plugin.'
+  plugin_directory: '&cPlugin directory not found.'
+reload:
+  reloaded: '&a{0} has been reloaded.'
+  notfound: '&c{0} not found.'
+unload:
+  unloaded: '&a{0} has been unloaded.'
+  already_unloaded: '&c{0} is already unloaded.'
+  failed: '&cFailed to unload {0}.'

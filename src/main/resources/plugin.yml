@@ -1,0 +1,13 @@
+name: PluginDevTool
+version: '${version}'
+main: ${mainClassName}
+api-version: 1.18
+prefix: PluginDEVTool
+authors: [WavJaby]
+load: STARTUP
+description: Plugin for Minecraft plugin developing
+
+commands:
+  devTool:
+    aliases: [dev, tool]
+    description: reload plugin

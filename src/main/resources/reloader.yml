@@ -1,0 +1,4 @@
+disabled:
+- ExamplePlugin
+autoReload:
+- ExamplePlugin
